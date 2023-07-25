@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/bmi.css" />
+    <link rel="stylesheet" type="text/css" href="media queries.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI CALCULATOR</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="change-theme">DARK</div>
+      <div class="container">
+        <h1 class="head-text">Niyi BMI CALCULATOR</h1>
+        <div class="inputs">
+          <div class="weight">
+            <p>kg</p>
+            <input
+              type="number"
+              value=" "
+              class="wt"
+              id="weight"
+              placeholder="type weight...."
+            />
+          </div>
+          <div class="height">
+            <p>cm</p>
+            <input
+              type="number"
+              value=" "
+              class="ht"
+              id="height"
+              placeholder="type height...."
+            />
+          </div>
+        </div>
+
+        <div class="funtion-keys">
+          <div class="enter-key">
+            <button><a href="#" class="pop" id="calc">calculate</a></button>
+          </div>
+
+          <div class="refresh-key" id="ref">
+            <button><a href="#" id="refresh">refresh</a></button>
+          </div>
+        </div>
+
+        <div class="outputs">
+          <input
+            type="text"
+            class="results"
+            id="output-no"
+            placeholder="Get answers here.."
+          />
+          <p class="comment" id="comment">
+            you have a bad BMI think about your life
+          </p>
+        </div>
+      </div>
+      <!-- 
+        <div class="popup" id="popUp">
+            <h2>BAD</h2>
+            <p>you have a bad bmi think about your life!!!!!.</p>
+            <div class="ok-btn">
+            <a href="#" class="ok" >ok</a>
+        </div>
+        </div> -->
+    </header>
+    <script src="bmi.js"></script>
+  </body>
+</html>
